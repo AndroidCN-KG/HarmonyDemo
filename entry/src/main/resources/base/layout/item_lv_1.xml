@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="70vp"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:iv_logo"
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:scale_mode="clip_center"
+        ohos:start_margin="20vp"
+        ohos:top_margin="10vp"
+        />
+
+    <Image
+        ohos:id="$+id:iv_logo1"
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:padding="$float:float_10vp"
+        ohos:scale_mode="clip_center"
+        ohos:start_margin="20vp"
+        ohos:top_margin="10vp"
+        />
+
+    <Text
+        ohos:id="$+id:item_index"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:padding="4vp"
+        ohos:start_margin="10vp"
+        ohos:text="Item0"
+        ohos:text_size="20fp"/>
+
+</DirectionalLayout>

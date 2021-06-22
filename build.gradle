@@ -1,0 +1,50 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\KG\\.ohos\\config\\auto_debug_2850086000369637147.p12')
+            storePassword '00000018CB43F49FA54BDE8BC010F647B8722EFFF08C17DF67535B4DF9B445F597869C9A5E10E0BD'
+            keyAlias = 'debugKey'
+            keyPassword '000000188EF966CD7019CBE770F7ED2DF6F43F702F8C27ADAB61C2D13C45B7E2518C577CCC422C5C'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Users\\KG\\.ohos\\config\\auto_debug_empt_2850086000369637147.p7b')
+            certpath file('C:\\Users\\KG\\.ohos\\config\\auto_debug_2850086000369637147.cer')
+        }
+    }
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:2.4.4.2'
+        classpath 'com.huawei.ohos:decctest:1.0.0.7'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+        jcenter()
+        mavenCentral()
+    }
+
+}

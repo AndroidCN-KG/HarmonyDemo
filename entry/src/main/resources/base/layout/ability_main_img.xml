@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+
+    <Image
+        ohos:id="$+id:image_test"
+        ohos:height="300vp"
+        ohos:width="300vp"
+        ohos:image_src="$media:icon"
+        />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        ohos:id="$+id:pv"
+        ohos:height="match_parent"
+        ohos:width="match_parent"/>
+
+</DependentLayout>

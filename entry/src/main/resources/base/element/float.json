@@ -1,0 +1,13 @@
+{
+  "float": [
+    {
+      "name": "float_10vp",
+      "value": "10vp",
+      "comment": "name必须字母开头,不然代码点不出来"
+    },
+    {
+      "name": "float_20vp",
+      "value": "20vp"
+    }
+  ]
+}

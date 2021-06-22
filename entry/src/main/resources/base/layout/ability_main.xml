@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        >
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            >
+
+            <Text
+                ohos:id="$+id:text_helloworld"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="$graphic:background_ability_main"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text="$string:mainability_HelloWorld"
+                ohos:text_size="50px"
+                />
+
+            <TextField
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:text_size="50px"
+                ohos:basement="#ff00ff"
+                ohos:background_element="$media:icon"
+                ohos:hint="这是输入框"
+                ohos:hint_color="#ff0000"
+                ohos:padding="10vp"
+                ohos:text_alignment="vertical_center"
+                />
+
+            <Button
+                ohos:id="$+id:btn_goto_img"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="20vp"
+                ohos:text="图片预览BTN"
+                ohos:text_size="26vp"
+                />
+
+            <Button
+                ohos:id="$+id:btn_goto_Tab"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="20vp"
+                ohos:text="Tab页面"
+                ohos:text_size="26vp"
+                />
+
+            <Button
+                ohos:id="$+id:btn_goto_list"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="20vp"
+                ohos:text="List页面"
+                ohos:text_size="26vp"
+                />
+
+
+            <Button
+                ohos:id="$+id:btn_goto_anim"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="20vp"
+                ohos:text="List页面"
+                ohos:text_size="26vp"
+                />
+
+
+        </DirectionalLayout>
+    </ScrollView>
+
+</DirectionalLayout>
