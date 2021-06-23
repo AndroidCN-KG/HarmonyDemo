@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <ProgressBar
+        ohos:id="$+id:progressBar"
+        ohos:height="$float:float_20vp"
+        ohos:progress_hint_text_size="13fp"
+        ohos:width="match_parent"/>
+
+    <!--    ▄█▀█●坑爹啊 不带包名 代码find的时候webView为空！！！-->
+    <ohos.agp.components.webengine.WebView
+        ohos:id="$+id:web_view"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        />
+</DirectionalLayout>

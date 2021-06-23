@@ -51,6 +51,7 @@ public class AnimatorFrameSlice extends AbilitySlice {
         component.setWidth(500);
         component.setHeight(500);
         component.setBackground(frameAnimationElement);
+//        frameAnimationElement.setOneShot(true);//执行一遍
         componentContainer.addComponent(component);
     }
 

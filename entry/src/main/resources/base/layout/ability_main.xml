@@ -29,13 +29,13 @@
             <TextField
                 ohos:height="50vp"
                 ohos:width="match_parent"
-                ohos:text_size="50px"
-                ohos:basement="#ff00ff"
                 ohos:background_element="$media:icon"
+                ohos:basement="#ff00ff"
                 ohos:hint="这是输入框"
                 ohos:hint_color="#ff0000"
                 ohos:padding="10vp"
                 ohos:text_alignment="vertical_center"
+                ohos:text_size="50px"
                 />
 
             <Button
@@ -43,9 +43,9 @@
                 ohos:height="match_content"
                 ohos:width="match_content"
                 ohos:image_src="$media:icon"
-                ohos:top_margin="20vp"
                 ohos:text="图片预览BTN"
                 ohos:text_size="26vp"
+                ohos:top_margin="20vp"
                 />
 
             <Button
@@ -53,9 +53,9 @@
                 ohos:height="match_content"
                 ohos:width="match_content"
                 ohos:image_src="$media:icon"
-                ohos:top_margin="20vp"
                 ohos:text="Tab页面"
                 ohos:text_size="26vp"
+                ohos:top_margin="20vp"
                 />
 
             <Button
@@ -63,20 +63,29 @@
                 ohos:height="match_content"
                 ohos:width="match_content"
                 ohos:image_src="$media:icon"
-                ohos:top_margin="20vp"
                 ohos:text="List页面"
                 ohos:text_size="26vp"
+                ohos:top_margin="20vp"
                 />
-
 
             <Button
                 ohos:id="$+id:btn_goto_anim"
                 ohos:height="match_content"
                 ohos:width="match_content"
                 ohos:image_src="$media:icon"
-                ohos:top_margin="20vp"
-                ohos:text="List页面"
+                ohos:text="动画"
                 ohos:text_size="26vp"
+                ohos:top_margin="20vp"
+                />
+
+            <Button
+                ohos:id="$+id:btn_goto_web"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:icon"
+                ohos:text="webView"
+                ohos:text_size="26vp"
+                ohos:top_margin="20vp"
                 />
 
 

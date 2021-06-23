@@ -17,6 +17,7 @@ public class MainAbilitySlice extends AbilitySlice implements Component.ClickedL
         findComponentById(ResourceTable.Id_btn_goto_Tab).setClickedListener(this);
         findComponentById(ResourceTable.Id_btn_goto_list).setClickedListener(this);
         findComponentById(ResourceTable.Id_btn_goto_anim).setClickedListener(this);
+        findComponentById(ResourceTable.Id_btn_goto_web).setClickedListener(this);
 //        btnImg.setClickedListener(this);
 //        Uri uri = Uri.parse("http://121.36.21.112:9527/profile/file/2021/05/25/21e8971660e860ebba23358ee4e311cb.jpg");
 //        Glide.with(this).load(uri)
@@ -54,6 +55,9 @@ public class MainAbilitySlice extends AbilitySlice implements Component.ClickedL
                 break;
             case ResourceTable.Id_btn_goto_anim:
                 present(new MainAbilitySlice_anim(), new Intent());
+                break;
+            case ResourceTable.Id_btn_goto_web:
+                present(new MainAbilitySlice_WebView(), new Intent());
                 break;
         }
     }
